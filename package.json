@@ -1,0 +1,31 @@
+{
+  "name": "vivy-bot",
+  "version": "0.0.1",
+  "description": "Bot project to make everyone happy with its singing",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "start-local": "yarn build && yarn start",
+    "start-local-hot": "nodemon --watch ./src --exec \"yarn start-local\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cptran777/vivy-bot.git"
+  },
+  "keywords": [
+    "vivy",
+    "discord",
+    "bot",
+    "octoprint",
+    "3d",
+    "printing"
+  ],
+  "author": "Charlie Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cptran777/vivy-bot/issues"
+  },
+  "homepage": "https://github.com/cptran777/vivy-bot#readme"
+}

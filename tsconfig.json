@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmitOnError": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "lib": ["es2017.object", "es2016"],
+    "listEmittedFiles": false,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "outDir": "build/"
+  },
+  "exclude": ["tmp", "dist", "vendor", ".git", ".gradle", ".idea", "logs"],
+  "include": [
+    "src/**/*"
+  ]
+}
