@@ -1,9 +1,9 @@
 export enum BotCommand {
   Assign = "assign",
   Campaign = "campaign",
+  Sam = "sam",
+  Log = "log",
 }
-// Sam = "sam",
-// Log = "log",
 
 /**
  * Campaigns follow their own permissions, where some actions are only allowed to specific roles
