@@ -1,5 +1,5 @@
 import { Client } from "pg";
-import { createLog, LogTag, LogType } from "src/database/utils/logger";
+import { createLog, LogTag, LogType } from "../../../utils/logger";
 import { PERMISSIONS_TABLE } from "../../constants";
 
 export class AssignDAO {

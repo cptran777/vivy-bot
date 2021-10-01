@@ -1,5 +1,5 @@
 import { Client } from "pg";
-import { createLog, LogTag, LogType } from "src/database/utils/logger";
+import { createLog, LogTag, LogType } from "../../../utils/logger";
 import { CAMPAIGNS_TABLE } from "../../constants";
 
 /**
