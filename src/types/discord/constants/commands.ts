@@ -1,5 +1,6 @@
-export enum BotCommand {}
-// Assign = "assign",
+export enum BotCommand {
+  Assign = "assign",
+}
 // Sam = "sam",
 // Log = "log",
 // Campaign = "campaign",
