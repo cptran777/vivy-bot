@@ -9,12 +9,15 @@ import { handleCampaignCommand } from "./campaign";
 import { BotCommand, HELP_FLAG } from "../../types/discord/constants/commands";
 import { mentionUser } from "../utils/user";
 
+// NOTE: For now we're using everything imported from separate modules here, but in the future we
+// will probably migrate everything that's not this router to AWS lambda functions
+
 /**
  * Main handler for handling incoming messages, with a high level check then a router to specified
  * lower level handlers for specific commands, if one has been given
  * @param message - triggering message
  */
-export function messageCommandHandler(message: Message): void {
+export function discordMessageCommandHandler(message: Message): void {
   if (message.author.bot) return;
   if (!message.content.startsWith(COMMAND_PREFIX)) return;
 
